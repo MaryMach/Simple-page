@@ -1,0 +1,364 @@
+.button {
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 0.25rem;
+	border: 1px solid rgba(255, 255, 255, 0.15);
+	border-radius: 3rem;
+	padding: 2.2rem 5rem 2.2rem 5rem;
+	background-color: transparent;
+}
+
+.button:hover, .button:focus {
+	color: white;
+	text-decoration: none;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+#menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	
+	margin: 0;
+	border: none;
+	border-radius: 0;
+	
+	width: 40rem;
+	height: 100vh;
+	
+	background-color: #312450;
+	
+	padding-left: 5rem;
+}
+
+#menu ul {
+	width: 30rem;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#menu li {
+	margin-bottom: 4rem;
+}
+
+#menu a {
+	border-radius: 0;
+	
+	text-align: right;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: rgba(255, 255, 255, 0.35);
+	letter-spacing: 0.25rem;
+	
+	border-bottom: 3px solid #3C2C62;
+	padding: 1.5rem 0 1.5rem 0;
+}
+
+#menu a:hover, #menu a:focus {
+	color: rgba(255, 255, 255, 0.55);
+	background-color: transparent;
+}
+
+#menu li.active a {
+	color: white;
+	background-color: transparent;
+	
+	border-bottom: 3px solid #964A99;
+}
+
+#content {
+	margin-left: 40rem;
+}
+
+.page {
+	min-height: 100vh;
+}
+
+#welcome {
+	background-color: #5E42A6;
+	padding-left: 10rem;
+	
+	background-image: url("../images/intro.svg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+#welcome > div {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#welcome h2 {
+	margin: 0;
+	color: white;
+	font-size: 6rem;
+	font-weight: bold;
+}
+
+#welcome p {
+	color: #B3A6D5;
+	font-size: 3rem;
+	margin-top: 6rem;
+	margin-bottom: 8rem;
+}
+
+#welcome p a {
+	color: #B3A6D5;
+	border-bottom: 1px dotted #B3A6D5;
+}
+
+#welcome p a:hover, #welcome p a:focus {
+	border-bottom: none;
+	text-decoration: none;
+	color: white;
+}
+
+#about .row:first-child{
+	background-color: #5052B5;
+}
+
+#about .row {
+	background-color: #4C4EAC;
+}
+
+#about .row:last-child{
+	background-color: #484AA3;
+}
+
+#about .image {
+	padding: 0;
+}
+
+#about .image img {
+	width: 100%;
+}
+
+#about .content {
+	padding-left: 10rem;
+	padding-top: 13rem;
+}
+
+#about .content h2 {
+	margin: 0;
+	color: white;
+	font-size: 4rem;
+	font-weight: bold;
+}
+
+#about .content p {
+	color: #B3A6D5;
+	font-size: 2.5rem;
+	margin-top: 3rem;
+	margin-bottom: 6rem;
+}
+
+#products {
+	background-color: #B74E91;
+	padding: 12rem;
+}
+
+#products h2 {
+	margin: 0;
+	color: white;
+	font-size: 4rem;
+	font-weight: bold;
+}
+
+#products > p {
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	color: #DDACCB;
+	font-size: 2.5rem;
+}
+
+#products .container-fluid {
+	border: 1px solid rgba(255, 255, 255, 0.15);
+	border-radius: 0.5rem;
+	background-color: rgba(255, 255, 255, 0.06);
+	
+	margin-bottom: 6rem;
+}
+
+#products .row {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+#products .row:last-child {
+	border: none;
+}
+
+#products .row div {
+	padding: 8rem;
+}
+
+#products .row div:first-child {
+	border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+#products span {
+	background-color: white;
+	color: #B74E91;
+	font-size: 3rem;
+	padding: 1rem;
+	border-radius: 3rem;
+	width: 5.5rem;
+	height: 5.5rem;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#products h3 {
+	margin-left: 2.5rem;
+	display: inline;
+	color: white;
+	font-weight: bold;
+}
+
+#products .row p {
+	margin-left: 8.3rem;
+	color: #DDACCB;
+	font-size: 2.5rem;
+}
+
+#contact {
+	background-color: #5E42A6;
+	padding: 12rem;
+}
+
+#contact h2 {
+	margin: 0;
+	color: white;
+	font-size: 4rem;
+	font-weight: bold;
+}
+
+#contact > p {
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	color: #A9A6D5;
+	font-size: 2.5rem;
+}
+
+#contact > .container-fluid {
+	margin-right: 4rem;
+}
+
+#contact label {
+	display: block;
+	color: white;
+	font-weight: bold;
+	font-size: 2.2rem;
+}
+
+#contact input, #contact textarea {
+	border: 1px solid rgba(255, 255, 255, 0.15);
+	border-radius: 0.5rem;
+	background-color: rgba(255, 255, 255, 0.06);
+	
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	
+	width: 100%;
+	
+	padding: 1.5rem 2rem 1.5rem 2rem;
+	
+	font-size: 2rem;
+}
+
+#contact input:focus, #contact textarea:focus {
+	border: 2px solid white;
+}
+
+#contact .col-md-8 {
+	margin-left: -15px;
+	padding-left: 0;
+	padding-right: 4rem;
+	
+	border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+#contact .button {
+	margin-top: 2rem;
+}
+
+#contact h3 {
+	display: block;
+	color: white;
+	font-weight: bold;
+	font-size: 2.2rem;
+	
+	margin-top: 4rem;
+	margin-bottom: 2rem;
+}
+
+#contact h3:first-of-type {
+	margin-top: 0;
+}
+
+#contact .col-md-4 {
+	padding-left: 5rem;
+}
+
+#contact .col-md-4 p {
+	color: #A9A6D5;
+	font-size: 2.5rem;
+}
+
+#contact .col-md-4 a {
+	color: #A9A6D5;
+	font-size: 2.5rem;
+
+	color: #B3A6D5;
+	border-bottom: 1px dotted #B3A6D5;
+}
+
+#contact .col-md-4 a.fa {
+	border: none;
+	margin-left: 1.5rem;
+}
+
+#contact .col-md-4 a.fa:first-of-type {
+	margin-left: 0;
+}
+
+#contact .col-md-4 a:hover, #contact .col-md-4 a:focus {
+	border-bottom: none;
+	text-decoration: none;
+	color: white;
+}
+
+footer {
+	background-color: #493382;
+	padding: 9rem;
+}
+
+footer p {
+	display: inline;
+	color: #5F4C91;
+	font-size: 1.8rem;
+	
+	padding-right: 2rem;
+	border-right: 1px solid #5F4C91;
+	margin-right: 2rem;
+}
+
+footer p:last-child {
+	border: none;
+}
+
+footer a {
+	color: #5F4C91;
+	border-bottom: 1px dotted #5F4C91;
+}
+
+footer a:hover, footer a:focus {
+	border-bottom: none;
+	text-decoration: none;
+	color: white;
+}
